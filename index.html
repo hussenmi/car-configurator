@@ -1,20 +1,28 @@
-  
-<html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Right Car Configurator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <p id='input-el'>
-            What type of car are you looking for?
-        </p>
-        <!-- <input type="text" id="input-el" placeholder="You can also directly put the lead here!"> -->
-        <br>
-        <button onclick="location.href = 'index2.html';", onclick="addPreference('SUV')", id='suv-btn'>SUV</button>
-        <button onclick="location.href = 'index2.html';", onclick="addPreference('SEDAN')", id='sedan-btn'>SEDAN</button>
-        <button onclick="location.href = 'index2.html';", onclick="addPreference('CROSSOVER')", id='crossover-btn'>CROSSOVER</button>
-        <button onclick="location.href = 'index2.html';", onclick="addPreference('WAGON')", id='wagon-btn'>WAGON</button>
-        <button onclick="location.href = 'index2.html';", onclick="addPreference('HATCHBACK')", id='hatchback-btn'>HATCHBACK</button>
-        <ol id='ul-el'></ol>
+        <div class="container">
+            <div id="survey" class="justify-center flex-column">
+                <h1 id="question">
+                    What type of car are you looking for?
+                </h1>
+                <div class="choice-container">
+                    <button onclick="location.href = 'index2.html';", onclick="addPreferences('SUV')", id='suv-btn' class = 'btn'>SUV</button>
+                    <button onclick="location.href = 'index2.html';", onclick="addPreferences('SEDAN')", id='sedan-btn' class = 'btn'>SEDAN</button>
+                    <button onclick="location.href = 'index2.html';", onclick="addPreferences('CROSSOVER')", id='crossover-btn' class = 'btn'>CROSSOVER</button>
+                    <button onclick="location.href = 'index2.html';", onclick="addPreferences('WAGON')", id='wagon-btn' class = 'btn'>WAGON</button>
+                    <button onclick="location.href = 'index2.html';", onclick="addPreferences('HATCHBACK')", id='hatchback-btn' class = 'btn'>HATCHBACK</button>
+                </div>
+            </div>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
