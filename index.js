@@ -6,10 +6,10 @@ const crossoverBtn = document.getElementById('crossover-btn')
 const wagonBtn = document.getElementById('wagon-btn')
 const hatchbackBtn = document.getElementById('hatchback-btn')
 
-const msrpBtn = document.getElementById('msrp-btn')
-const thirtySixBtn = document.getElementById('36-btn')
-const fortyEightBtn = document.getElementById('48-btn')
-const sixtyBtn = document.getElementById('60-btn')
+// const msrpBtn = document.getElementById('msrp-btn')
+// const thirtySixBtn = document.getElementById('thirtySix-btn')
+// const fortyEightBtn = document.getElementById('fortyEight-btn')
+// const sixtyBtn = document.getElementById('sixty-btn')
 // const inputEl = document.getElementById('input-el')
 
 const ulEl = document.getElementById('ul-el')
@@ -46,47 +46,47 @@ hatchbackBtn.addEventListener('click', function() {
 })
 
 
-msrpBtn.addEventListener('click', function() {
-    goToPage3()
-    let payment_method = 'msrp'
-})
+// msrpBtn.addEventListener('click', function() {
+//     goToPage3()
+//     let payment_method = 'msrp'
+// })
 
-thirtySixBtn.addEventListener('click', function() {
-    goToPage3()
-    let payment_method = '36_month'
-})
+// thirtySixBtn.addEventListener('click', function() {
+//     goToPage3()
+//     let payment_method = '36_month'
+// })
 
-fortyEightBtn.addEventListener('click', function() {
-    goToPage3()
-    let payment_method = '48_month'
-})
+// fortyEightBtn.addEventListener('click', function() {
+//     goToPage3()
+//     let payment_method = '48_month'
+// })
 
-sixtyBtn.addEventListener('click', function() {
-    goToPage3()
-    let payment_method = '60_month'
-})
+// sixtyBtn.addEventListener('click', function() {
+//     goToPage3()
+//     let payment_method = '60_month'
+// })
 
-function goToPage3() {
-    window.location.href = 'index3.html'
-    // myLeads.push(inputEl.value)  // add the new lead
-    // inputEl.value = null
-}
+// function goToPage3() {
+//     window.location.href = 'index3.html'
+//     // myLeads.push(inputEl.value)  // add the new lead
+//     // inputEl.value = null
+// }
 
-suvBtn.addEventListener('click', function(){
-    // console.log(tabs[0]['url'])
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-        myLeads.push(tabs[0]['url'])
-        localStorage.setItem("myLeads", JSON.stringify(myLeads))
-        renderLeads(myLeads)
-    })
-})
+// suvBtn.addEventListener('click', function(){
+//     // console.log(tabs[0]['url'])
+//     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+//         myLeads.push(tabs[0]['url'])
+//         localStorage.setItem("myLeads", JSON.stringify(myLeads))
+//         renderLeads(myLeads)
+//     })
+// })
 
-sedanBtn.addEventListener('click', function() {
-    localStorage.clear()
-    myLeads = []
-    renderLeads(myLeads) // DOM will display nothing because we've cleared everything
+// sedanBtn.addEventListener('click', function() {
+//     localStorage.clear()
+//     myLeads = []
+//     renderLeads(myLeads) // DOM will display nothing because we've cleared everything
 
-})
+// })
 
 let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads")) // recreate myLeads array from localStorage
 
