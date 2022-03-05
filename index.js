@@ -10,9 +10,17 @@ const hatchbackBtn = document.getElementById('hatchback-btn')
 // const thirtySixBtn = document.getElementById('thirtySix-btn')
 // const fortyEightBtn = document.getElementById('fortyEight-btn')
 // const sixtyBtn = document.getElementById('sixty-btn')
-// const inputEl = document.getElementById('input-el')
+
+const inputEl = document.getElementById('input-el')
 
 const ulEl = document.getElementById('ul-el')
+
+var dict = {}
+
+function addPreference(preference) {
+    dict['preference'] = preference
+    console.log(dict)
+}
 
 // function goToPage2() {
 //     window.location.href = 'index2.html'
