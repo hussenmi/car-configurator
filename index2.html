@@ -1,18 +1,27 @@
-  <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Right Car Configurator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <p id='input-el'>
-            How do you plan to pay?
-        </p>
-        <!-- <input type="text" id="input-el" placeholder="You can also directly put the lead here!"> -->
-        <br>
-        <button onclick="location.href = 'index3_msrp.html';", id='msrp-btn'>MSRP</button>
-        <button onclick="location.href = 'index3_monthly.html';", id='thirtySix-btn'>36-month finance</button>
-        <button onclick="location.href = 'index3_monthly.html';", id='fortyEight-btn'>48-month finance</button>            
-        <button onclick="location.href = 'index3_monthly.html';", id='sixty-btn'>60-month finance</button>
-        <ol id='ul-el'></ol>
-        <!-- <script src="index2.js"></script> -->
+        <div class="container">
+            <div id="survey" class="justify-center flex-column">
+                <h1 id="question">
+                    How do you plan to pay?
+                </h1>
+                <div class="choice-container">
+                    <button onclick="location.href = 'index3_msrp.html';", id='msrp-btn' class = 'btn'>MSRP</button>
+                    <button onclick="location.href = 'index3_monthly.html';", id='thirtySix-btn' class = 'btn'>36-month finance</button>
+                    <button onclick="location.href = 'index3_monthly.html';", id='fortyEight-btn' class = 'btn'>48-month finance</button>            
+                    <button onclick="location.href = 'index3_monthly.html';", id='sixty-btn' class = 'btn'>60-month finance</button>
+                </div>
+            </div>
+        </div>
+        
     </body>
 </html>
