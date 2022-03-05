@@ -59,9 +59,9 @@ body {
 }
 
 .btn{
-    font-size:2.4rem;
+    font-size:2.2rem;
     padding: 2rem 0;
-    width: 20rem rig;
+    width: 20rem ;
     text-align: center;
     margin-bottom: 30rem;
     text-decoration: none;
@@ -86,15 +86,20 @@ body {
 .int{
     font-size:2.4rem;
     padding: 2rem 0;
-    width: 20rem;rig
+    width: 20rem;
     text-align: center;
     margin-bottom: 30rem;
     text-decoration: none;
     color: rgb(10, 10, 10);
-    background: linear-gradient(90deg, rgba(46, 136, 245, 0.623) 0%, rgba(46, 136, 245, 0.589) 100%);
+    background: linear-gradient(90deg, rgba(219, 226, 235, 0.623) 0%, rgba(219, 226, 235, 0.623) 100%);
     border-radius: 2px;
 }
-
+#question6{
+    font-size:3.4rem;
+    text-align: left;
+    margin-bottom: 5rem;
+    max-width: 80rem
+}
 
 #input-el {
     padding-left: 10px;
