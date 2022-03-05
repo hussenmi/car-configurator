@@ -14,36 +14,36 @@ const hatchbackBtn = document.getElementById('hatchback-btn')
 
 const ulEl = document.getElementById('ul-el')
 
-function goToPage2() {
-    window.location.href = 'index2.html'
-    // myLeads.push(inputEl.value)  // add the new lead
-    // inputEl.value = null
-}
+// function goToPage2() {
+//     window.location.href = 'index2.html'
+//     // myLeads.push(inputEl.value)  // add the new lead
+//     // inputEl.value = null
+// }
 
-suvBtn.addEventListener('click', function() {
-    goToPage2()
-    let preference = 'suv'
-})
+// suvBtn.addEventListener('click', function() {
+    // goToPage2()
+//     let preference = 'suv'
+// })
 
-sedanBtn.addEventListener('click', function() {
-    goToPage2()
-    let preference = 'sedan'
-})
+// sedanBtn.addEventListener('click', function() {
+//     goToPage2()
+//     let preference = 'sedan'
+// })
 
-crossoverBtn.addEventListener('click', function() {
-    goToPage2()
-    let preference = 'crossover'
-})
+// crossoverBtn.addEventListener('click', function() {
+//     goToPage2()
+//     let preference = 'crossover'
+// })
 
-wagonBtn.addEventListener('click', function() {
-    goToPage2()
-    let preference = 'wagon'
-})
+// wagonBtn.addEventListener('click', function() {
+//     goToPage2()
+//     let preference = 'wagon'
+// })
 
-hatchbackBtn.addEventListener('click', function() {
-    goToPage2()
-    let preference = 'hatchback'
-})
+// hatchbackBtn.addEventListener('click', function() {
+//     goToPage2()
+//     let preference = 'hatchback'
+// })
 
 
 // msrpBtn.addEventListener('click', function() {
