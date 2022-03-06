@@ -10,7 +10,37 @@
 // const wagonBtn = document.getElementById('wagon-btn')
 // const hatchbackBtn = document.getElementById('hatchback-btn')
 
-const msrpBtn = document.getElementById('msrp-btn')
+// const msrpBtn = document.getElementById('msrp-btn')
+// =======
+// function addPreference(preference) {
+//     dict['preference'] = preference
+//     console.log(dict)
+// }
+
+
+
+// const suvBtn = document.getElementById('suv-btn')
+// const sedanBtn = document.getElementById('sedan-btn')
+// const crossoverBtn = document.getElementById('crossover-btn')
+// const wagonBtn = document.getElementById('wagon-btn')
+// const hatchbackBtn = document.getElementById('hatchback-btn')
+
+// var dict = {}
+
+// suvBtn.addEventListener('click', function() {
+//     dict['preference'] = 'suv'
+//     console.log("hey")
+//     goToPage2()
+// })
+    
+//     sedanBtn.addEventListener('click', function() {
+//         goToPage2()
+//         let preference = 'sedan'
+//     })
+// }
+
+
+// const msrpBtn = document.getElementById('msrp-btn')
 // const thirtySixBtn = document.getElementById('thirtySix-btn')
 // const fortyEightBtn = document.getElementById('fortyEight-btn')
 // const sixtyBtn = document.getElementById('sixty-btn')
