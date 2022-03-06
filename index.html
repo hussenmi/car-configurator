@@ -9,10 +9,11 @@
         <link rel="stylesheet" href="index.css">
         <style>
             .progress {
-                position: relative;
+                position: absolute;
                 width: 210px;
                 height: 30px;
-                background: #9cbab4;
+                top: 90%;
+                background: #6772d4;
                 border-radius: 5px;
                 overflow: hidden;
                 }
@@ -20,7 +21,7 @@
             .progress__fill {
                 width: 0%;
                 height: 100%;
-                background: #009579;
+                background: #022e81;
                 transition: all 0.2s;
                 }
 
@@ -44,14 +45,37 @@
                 <h1 id="question">
                     What type of car are you looking for?
                 </h1>
+                <p>
+                    <div class="choice-container">
+                        <button onclick="doStuff('hatchback')", id='hatchback-btn' class = 'btn'>HATCHBACK</button>
+                        <button onclick="doStuff('sedan')", id='sedan-btn' class = 'btn'>SEDAN</button>
+                        <button onclick="doStuff('crossover')", id='crossover-btn' class = 'btn'>CROSSOVER</button>
+                        <button onclick="doStuff('suv')", id='suv-btn' class = 'btn'>SUV</button>
+                        <button onclick="doStuff('wagon')", id='wagon-btn' class = 'btn'>WAGON</button>
+                        
+                    </div>
+                    <div class="relative">
+                        <div class="wrapper">
+                            <div id="sedan"> 
+                    
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <div id="hatchback"></div>
+                        </div>
+                        <div class="wrapper">
+                            <div id="crossover"></div>
+                        </div>
+                        <div class="wrapper">
+                            <div id="wagon"></div>
+                        </div>
+                        <div class="wrapper">
+                            <div id="SUV"></div>
+                        </div>
+                    </div>
+                </p>
                 
-                <div class="choice-container">
-                    <button onclick="doStuff('suv')", id='suv-btn' class = 'btn'>SUV</button>
-                    <button onclick="doStuff('sedan')", id='sedan-btn' class = 'btn'>SEDAN</button>
-                    <button onclick="doStuff('crossover')", id='crossover-btn' class = 'btn'>CROSSOVER</button>
-                    <button onclick="doStuff('wagon')", id='wagon-btn' class = 'btn'>WAGON</button>
-                    <button onclick="doStuff('hatchback')", id='hatchback-btn' class = 'btn'>HATCHBACK</button>
-                </div>
+                
                 <div class="progress">
                     <div class="progress__fill"></div>
                     <span class="progress__text">0%</span>

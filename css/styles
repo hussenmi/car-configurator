@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 :root{
-    background-color: rgba(26, 29, 26, 0.267)
+    background-color: rgba(26, 29, 26, 0.432)
 }
 
 *{
@@ -591,4 +591,17 @@ No JS
 
 .no-js .cd-products-columns .check {
   display: none;
+}
+.wrappers {
+    margin: 0 auto;
+    width: 1000px;
+}
+.carimage {
+    width:200px;
+    height: 200px;
+    background-image: url(img/rightcar.png);
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
