@@ -26,6 +26,12 @@ const inputEnvironment = document.getElementById('environment')
 
 const inputAverageDrive = document.getElementById('average-drive')
 
+const inputCruiseControl = document.getElementById('dessert-1')
+const inputLaneKeeping = document.getElementById('dessert-2')
+const inputSmartphone = document.getElementById('dessert-3')
+const inputSeatCooling = document.getElementById('dessert-4')
+const inputHeatedWheel = document.getElementById('dessert-5')
+
 // const ulEl = document.getElementById('ul-el')
 
 // var dict = {}
@@ -114,6 +120,11 @@ function doStuff7() {
     localStorage.setItem("average_drive", inputAverageDrive.value)
     inputAverageDrive.value = null
     window.location.href = 'index8.html'  // go to page 8
+}
+
+function doStuff8() {
+    localStorage.setItem("dessert", inputCruiseControl.value)
+    window.location.href = 'index9.html'  // go to page 9
 }
 
 // suvBtn.addEventListener('click', function() {
