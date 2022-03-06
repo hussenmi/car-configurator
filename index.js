@@ -1,10 +1,32 @@
 let myLeads = []
 
+function addPreference(preference) {
+    dict['preference'] = preference
+    console.log(dict)
+}
+
+
+
 const suvBtn = document.getElementById('suv-btn')
 const sedanBtn = document.getElementById('sedan-btn')
 const crossoverBtn = document.getElementById('crossover-btn')
 const wagonBtn = document.getElementById('wagon-btn')
 const hatchbackBtn = document.getElementById('hatchback-btn')
+
+var dict = {}
+
+suvBtn.addEventListener('click', function() {
+    dict['preference'] = 'suv'
+    console.log("hey")
+    goToPage2()
+})
+    
+    sedanBtn.addEventListener('click', function() {
+        goToPage2()
+        let preference = 'sedan'
+    })
+}
+
 
 // const msrpBtn = document.getElementById('msrp-btn')
 // const thirtySixBtn = document.getElementById('thirtySix-btn')
@@ -17,10 +39,6 @@ const ulEl = document.getElementById('ul-el')
 
 var dict = {}
 
-function addPreference(preference) {
-    dict['preference'] = preference
-    console.log(dict)
-}
 
 // function goToPage2() {
 //     window.location.href = 'index2.html'
@@ -28,15 +46,15 @@ function addPreference(preference) {
 //     // inputEl.value = null
 // }
 
-// suvBtn.addEventListener('click', function() {
-    // goToPage2()
-//     let preference = 'suv'
-// })
+suvBtn.addEventListener('click', function() {
+    goToPage2()
+    let preference = 'suv'
+})
 
-// sedanBtn.addEventListener('click', function() {
-//     goToPage2()
-//     let preference = 'sedan'
-// })
+sedanBtn.addEventListener('click', function() {
+    goToPage2()
+    let preference = 'sedan'
+})
 
 // crossoverBtn.addEventListener('click', function() {
 //     goToPage2()

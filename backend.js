@@ -944,20 +944,21 @@ const sample = {
 }
 
 const response = {
-    "category": "crossover",
-    "payment": "month_36",
+    "preference": "crossover",
+    "method": "msrp",
     "min_msrp": 10000,
-    "max_msrp": 20000,
+    "max_msrp": 50000,
     "size": "compact",
     "fuel_type": "gasoline",
     "environment": "city",
-    "expected_kilometers": 150,
+    "average_drive": "40",
+    "expected_kilometers": "150",
     "trim_options": ["adaptive_cruise", "lane_keep_cruise"],
 }
 
 function recommend(data, response) {
 
-    let results = data.filter(datum => datum.Category.toLowerCase() == response.category.toLowerCase())
+    let results = data.filter(datum => datum.Category.toLowerCase() == response.preference.toLowerCase())
                       .filter(datum => datum.Size.toLowerCase() == response.size.toLowerCase())
                       .filter(datum => datum["Fuel Type"].toLowerCase() == response.fuel_type.toLowerCase())
                       .filter(function (datum) {
@@ -976,7 +977,7 @@ function recommend(data, response) {
                                     return false
                                 }
                           } return true
-                      })
+                         })
                       .filter(datum => response.min_msrp < datum["MSRP"] && response.max_msrp > datum["MSRP"])
 
     return results
@@ -984,11 +985,23 @@ function recommend(data, response) {
 
 function score(filtered_data, response, car)  {
     
-    let rank = response.rank
-    let cost = 150000
-    let score = 0.7*(response.min_msrp / cost) + 0.3 * (1/ rank)
 
-    return score
+    let cost = []
+    for (let i=0; i<filtered_data.length; i++) {
+        cost.push(parseFloat(filtered_data[i]["MSRP"]))
+    }
+
+    let scores = []
+    let rank = [1, 2, 3, 4, 5]
+    for (let i=0; i<filtered_data.length; i++) {
+=        score = 0.7*(parseFloat(response.min_msrp) / cost[i]) + 0.3 * (1/ rank[i])
+        scores.push(score)
+    }
+
+    return scores
 }
 
-console.log(recommend(data, response))
+let filtered_data = recommend(data, response)
+console.log(filtered_data)
+let scores = score(filtered_data, response)
+console.log(scores)
