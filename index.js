@@ -154,8 +154,37 @@ function doStuff7() {
 }
 
 function doStuff8() {
-    localStorage.setItem("dessert", inputCruiseControl.value)
+    trims = []
+    if (inputCruiseControl.checked) {
+        trims.push('cruise_control')
+    }
+    inputCruiseControl.checked = false
+    if (inputLaneKeeping.checked) {
+        trims.push('lane_keeping')
+    }
+    inputLaneKeeping.checked = false
+    if (inputSmartphone.checked) {
+        trims.push('smartphone')
+    }
+    inputSmartphone.checked = false
+    if (inputSeatCooling.checked) {
+        trims.push('seat_cooling')
+    }
+    inputSeatCooling.checked = false
+    if (inputHeatedWheel.checked) {
+        trims.push('heated_wheel')
+    }
+    inputHeatedWheel.checked = false
+
+    localStorage.setItem("trims", trims)
+
+    // module.exports = {get_responses, trims}
+
     window.location.href = 'index9.html'  // go to page 9
+}
+
+function doStuff9() {
+    window.location.href = 'index10.html'  // go to page 10
 }
 
 // suvBtn.addEventListener('click', function() {

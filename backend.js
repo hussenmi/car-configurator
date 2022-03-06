@@ -1,4 +1,3 @@
-
 var data = [
     {
         "Brand": "Toyota",
@@ -946,15 +945,16 @@ const sample = {
 const response = {
     "preference": "crossover",
     "method": "msrp",
-    "min_msrp": 10000,
-    "max_msrp": 50000,
+    "min_msrp": 33000,
+    "max_msrp": 35000,
     "size": "compact",
     "fuel_type": "gasoline",
     "environment": "city",
     "average_drive": "40",
     "expected_kilometers": "150",
-    "trim_options": ["adaptive_cruise", "lane_keep_cruise"],
+    "trim_options": ["adaptive_cruise", "lane_keep_cruise","Heated Steering Wheel"],
 }
+
 
 function recommend(data, response) {
 
@@ -994,12 +994,13 @@ function score(filtered_data, response, car)  {
     let scores = []
     let rank = [1, 2, 3, 4, 5]
     for (let i=0; i<filtered_data.length; i++) {
-=        score = 0.7*(parseFloat(response.min_msrp) / cost[i]) + 0.3 * (1/ rank[i])
+        score = 0.7*(parseFloat(response.min_msrp) / cost[i]) + 0.3 * (1/ rank[i])
         scores.push(score)
     }
 
     return scores
 }
+
 
 let filtered_data = recommend(data, response)
 console.log(filtered_data)

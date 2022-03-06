@@ -162,7 +162,10 @@ li a {
     width: 1000px;
 }
 .carimage {
-    width:300px;
+    width:200px;
     height: 200px;
     background-image: url(img/lane.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
