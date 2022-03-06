@@ -24,6 +24,8 @@ const inputDownpayment = document.getElementById('input-downpayment')
 
 const inputEnvironment = document.getElementById('environment')
 
+const inputAverageDrive = document.getElementById('average-drive')
+
 // const ulEl = document.getElementById('ul-el')
 
 // var dict = {}
@@ -60,10 +62,10 @@ const inputEnvironment = document.getElementById('environment')
 //     // inputEl.value = null
 // }
 
-// function doStuff(preference) {
-//     localStorage.setItem("preference", preference)
-//     window.location.href = 'index2.html'  // go to page 2
-// }
+function doStuff(preference) {
+    localStorage.setItem("preference", preference)
+    window.location.href = 'index2.html'  // go to page 2
+}
 
 function doStuff2(method) {
     localStorage.setItem("method", method)
@@ -106,6 +108,12 @@ function doStuff6() {
     localStorage.setItem("environment", inputEnvironment.value)
     inputEnvironment.value = null
     window.location.href = 'index7.html'  // go to page 7
+}
+
+function doStuff7() {
+    localStorage.setItem("average_drive", inputAverageDrive.value)
+    inputAverageDrive.value = null
+    window.location.href = 'index8.html'  // go to page 8
 }
 
 // suvBtn.addEventListener('click', function() {
