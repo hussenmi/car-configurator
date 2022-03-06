@@ -180,7 +180,7 @@ function doStuff8() {
 
     // module.exports = {get_responses, trims}
 
-    window.location.href = 'index9.html'  // go to page 9
+    window.location.href = 'index10.html'  // go to page 9
 }
 
 function doStuff9() {

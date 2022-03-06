@@ -164,7 +164,8 @@ li a {
 .carimage {
     width:200px;
     height: 200px;
-    background-image: url(img/lane.png);
+    background-image: url(img/rightcar.png);
+    border-radius: 50%;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
