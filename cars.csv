@@ -1,0 +1,47 @@
+Brand,Car,Trim,MSRP,36 months,48 months,60 months,City,Highway,Price/L,Category,Size,Fuel Type,Drivetrain,Adaptive Cruise,Lane-keep Assist,Heated Steering Wheel,Cooled Seats
+Toyota,RAV4,LE FWD,28850,1037.54,800.04,654.96,8.5,6.8,1.4,Crossover,Compact,Gasoline,FWD,Yes,Yes,No,No
+Toyota,RAV4,LE AWD,30950,1108.12,854.47,699.51,8.7,6.9,1.4,Crossover,Compact,Gasoline,AWD,Yes,Yes,No,No
+Toyota,RAV4,LE AWD Hyrbid,33190,1183.41,912.52,747.03,5.8,6.3,1.4,Crossover,Compact,Hybrid,AWD,Yes,Yes,No,No
+Toyota,RAV4,XLE AWD ,34550,1229.11,947.76,775.89,8.8,7.1,1.4,Crossover,Compact,Gasoline,AWD ,Yes,Yes,Yes,No
+Toyota,RAV4,XLE AWD Hybrid,36190,1284.23,990.27,810.68,5.8,6.3,1.4,Crossover,Compact,Hybrid,AWD,Yes,Yes,Yes,No
+Toyota,RAV4,SE AWD Hybrid,37990,1344.73,1036.91,848.87,5.8,6.3,1.4,Crossover,Compact,Hybrid,AWD,Yes,Yes,Yes,No
+Toyota,RAV4,Trail AWD,38350,1356.83,1046.24,856.51,9.5,7.1,1.4,Crossover,Compact,Gasoline,AWD,Yes,Yes,Yes,No
+Toyota,RAV4,XSE AWD Hybrid,40650,1434.13,1105.85,905.31,5.8,6.3,1.4,Crossover,Compact,Hybrid,AWD,Yes,Yes,Yes,No
+Toyota,RAV4,XSE AWD Hybrid Tech Package,44850,1575.29,1214.7,994.41,5.8,6.3,1.4,Crossover,Compact,Hybrid,AWD,Yes,Yes,Yes,No
+Toyota,RAV4,Limited AWD,42850,1508.07,1162.87,951.98,9.5,7.1,1.4,Crossover,Compact,Gasoline,AWD,Yes,Yes,Yes,Yes
+Toyota,RAV4,Limited AWD Hybrid,44490,1563.19,1205.37,986.77,5.8,6.3,1.4,Crossover,Compact,Hybrid,AWD,Yes,Yes,Yes,Yes
+Toyota ,RAV4,PRIME SE,44990,1431.28,1103.65,903.51,5.7,6.0,1.4,Crossover,Compact,PHEV,AWD,Yes,Yes,Yes,No
+Toyota,RAV4,PRIME XSE,51590,1653.1,1274.7,1043.53,5.7,6.0,1.4,Crossover,Compact,PHEV,AWD,Yes,Yes,Yes,No
+Toyota ,RAV4,PRIME XSE Tech,56990,1834.59,1414.64,1158.1,5.7,6.0,1.4,Crossover,Compact,PHEV,AWD,Yes,Yes,Yes,Yes
+Honda,Civic,LX,24465,858.37,658.45,541.29,7.7,6.0,1.4,Sedan,Compact,Gasoline,FWD,Yes,Yes,No,No
+Honda,Civic,EX,26765,993.37,715.97,588.55,7.7,6.0,1.4,Sedan,Compact,Gasoline,FWD,Yes,Yes,Yes,No
+Honda,Civic,Sport,27865,969.24,743.47,611.16,7.8,6.3,1.4,Sedan,Compact,Gasoline,FWD,Yes,Yes,Yes,No
+Honda,Civic,Touring,30265,1047.5,803.49,660.48,7.6,6.1,1.4,Sedan,Compact,Gasoline,FWD,Yes,Yes,Yes,No
+Honda,Civic,Si,33150,1150.27,884.41,732.25,8.7,6.4,1.4,Sedan,Compact,Gasoline,FWD,Yes,Yes,Yes,No
+Honda,Civic,Hatch - LX,28000,981.06,754.33,624.58,8.0,6.2,1.4,Hatchback,Compact,Gasoline,FWD,Yes,Yes,No,No
+Honda,Civic,Hatch - Sport,31500,1096.06,842.73,697.75,7.7,6.3,1.4,Hatchback,Compact,Gasoline,FWD,Yes,Yes,Yes,No
+Honda,Civic,Hatch - Sport Touring,35000,1211.06,931.13,770.93,7.7,6.3,1.4,Hatchback,Compact,Gasoline,FWD,Yes,Yes,Yes,No
+Tesla,Model S,Standard,121990,3579.0,2733.0,2225.0,1.7,2.2,1.4,Sedan,Mid-sized,Electric,AWD,Yes,Yes,Yes,Yes
+Tesla,Model S,Plaid,169990,4989.0,3809.0,3102.0,1.7,2.2,1.4,Sedan,Mid-sized,Electric,AWD,Yes,Yes,Yes,Yes
+Mercedes-Benz,E-Class,Wagon All-Terrain,82900,2458.25,1882.58,1537.6,11.0,8.3,1.6,Wagon,Mid-sized,Gasoline,AWD,No,No,No,No
+Mercedes-Benz,E-Class,Wagon All-Terrain + Intelligent Drive Package,89200,2645.06,2025.65,1654.45,11.0,8.3,1.6,Wagon,Mid-sized,Gasoline,AWD,Yes,Yes,No,No
+Mercedes-Benz,E-Class,Wagon All-Terrain + Intelligent Drive Package + Comfort Package + Premium Package,93300,2766.64,2118.76,1730.5,11.0,8.3,1.6,Wagon,Mid-sized,Gasoline,AWD,Yes,Yes,Yes,Yes
+Mercedes-Benz,E-Class,E350 4Matic,66700,1977.87,1514.69,1237.13,11.2,8.2,1.6,Sedan,Mid-sized,Gasoline,AWD,No,No,No,No
+Mercedes-Benz,E-Class,E350 4Matic + Intelligent Drive Package,72600,2152.82,1648.68,1346.56,11.2,8.2,1.6,Sedan,Mid-sized,Gasoline,AWD,Yes,Yes,No,No
+Mercedes-Benz,E-Class,E350 4Matic + Intelligent Drive Package + Comfort Package + Premium Package,79890,2368.99,1814.23,1481.77,11.2,8.2,1.6,Sedan,Mid-sized,Gasoline,AWD,Yes,Yes,No,Yes
+Mercedes-Benz,E-Class,E450 4Matic,76800,2277.36,1744.06,1424.46,10.5,7.9,1.6,Sedan,Mid-sized,Gasoline,AWD,No,No,No,No
+Hyundai,IONIQ 5,Essential,44999,1407.88,1074.09,873.98,1.9,2.5,1.4,Crossover,Mid-sized,Electric,RWD,Yes,Yes,Yes,No
+Hyundai,IONIQ 5,Preferred,46999,1474.09,1124.6,915.08,1.9,2.5,1.4,Crossover,Mid-sized,Electric,RWD,Yes,Yes,Yes,No
+Hyundai,IONIQ 5,Preferred Long Range,51999,1639.62,1250.89,1017.84,1.9,2.5,1.4,Crossover,Mid-sized,Electric,RWD,Yes,Yes,Yes,No
+Hyundai,IONIQ 5,Preferred AWD Long Range,54999,1738.94,1326.66,1079.49,1.9,2.5,1.4,Crossover,Mid-sized,Electric,AWD,Yes,Yes,Yes,No
+Hyundai,IONIQ 5,Preferred AWD Long Range Premium Package,59999,1911.09,1458.0,1186.36,1.9,2.5,1.4,Crossover,Mid-sized,Electric,AWD,Yes,Yes,Yes,Yes
+Hyundai,SANTA FE,Essential,33699,1181.36,899.11,729.87,10.6,9.3,1.4,Crossover,Mid-sized,Gasoline,AWD,Yes,Yes,Yes,Yes
+Hyundai,SANTA FE,Preferred,36699,1279.93,974.13,790.76,10.6,9.3,1.4,Crossover,Mid-sized,Gasoline,AWD,Yes,Yes,Yes,Yes
+Hyundai,SANTA FE,Urban,40499,1398.21,1064.16,863.84,11.0,8.5,1.4,Crossover,Mid-sized,Gasoline,AWD,Yes,Yes,Yes,Yes
+Hyundai,SANTA FE,Luxury Hybrid,44099,1516.5,1154.18,936.92,7.1,7.9,1.4,Crossover,Mid-sized,Hybrid,AWD,Yes,Yes,Yes,Yes
+Hyundai,SANTA FE,Luxury Hybrid + PHEV,48699,1594.94,1213.89,985.39,3.1,3.1,1.4,Crossover,Mid-sized,PHEV,AWD,Yes,Yes,Yes,Yes
+Hyundai,SANTA FE,Ultimate Calligraphy,47799,1638.07,1246.71,1012.03,11.0,8.5,1.4,Crossover,Mid-sized,Gasoline,AWD,Yes,Yes,Yes,Yes
+Hyundai,PALISADE,Essential,41499,1431.07,1089.16,884.14,12.3,9.6,1.4,SUV,Full-sized,Gasoline,AWD,Yes,Yes,Yes,No
+Hyundai,PALISADE,Preferred,46499,1595.0,1214.0,986.0,12.3,9.6,1.4,SUV,Full-sized,Gasoline,AWD,Yes,Yes,Yes,No
+Hyundai,PALISADE,Luxury,50699,1740.0,1324.0,1075.0,12.3,9.6,1.4,SUV,Full-sized,Gasoline,AWD,Yes,Yes,Yes,Yes
+Hyundai,PALISADE,Ultimate Calligraphy,54999,1875.0,1427.0,1158.0,12.3,9.6,1.4,SUV,Full-sized,Gasoline,AWD,Yes,Yes,Yes,Yes
