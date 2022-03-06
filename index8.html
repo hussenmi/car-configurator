@@ -1,24 +1,45 @@
-<html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Image As Checkbox</title>
+        <!-- Font Awesome Icons -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        rel="stylesheet" href="index8-1.css"
+    />
+    <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <p id='input-el'>
-            Input your preferences for the following options
-        </p>
-        <!-- <input type="text" id="input-el" placeholder="You can also directly put the lead here!"> -->
-        <br>
-        <!-- <div class="slidecontainer">
-            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        </div> -->
-        <button onclick="" class='trim-btn', id="hsw">Heated Streeing Wheel</button>
-        <button class='trim-btn', id="cs">Cooled Seats</button>
-        <button class='trim-btn', id="spc">Smart Phone Compatability</button>
-        <button class='trim-btn', id="lka">Lane Keep Assist</button>
-        <button class='trim-btn', id="acc">Adaptive Cruise Control</button>
-        
-        <button onclick="location.href = 'index7.html';", id='submit-budget-btn'>SUBMIT</button>
-        <!-- <ol id='ul-el'></ol> -->
-        <script src="index.js"></script>
-    </body>
+        <div class="wrapper">
+            <div class="containers">
+                <h1 id="question6">
+                    On average, how many kilometers do you drive per week?
+                </h1>
+                <input type="checkbox" id="dessert-1" />
+                <label for="dessert-1">
+                    Adaptive Cruise Control
+                </label>
+                <input type="checkbox" id="dessert-1" />
+                <label for="dessert-1">
+                    Lane keeping assistnt
+                </label>
+                <input type="checkbox" id="dessert-1" />
+                <label for="dessert-1">
+                    Smartphone compatibility
+                </label>
+                <input type="checkbox" id="dessert-1" />
+                <label for="dessert-1">
+                    Cooled seat
+                </label>
+                <input type="checkbox" id="dessert-1" />
+                <label for="dessert-1">
+                    Steering wheel
+                </label>
+            </div>
+    </div>
+  </body>
 </html>
