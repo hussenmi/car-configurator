@@ -62,6 +62,7 @@ const inputSmartphone = document.getElementById('dessert-3')
 const inputSeatCooling = document.getElementById('dessert-4')
 const inputHeatedWheel = document.getElementById('dessert-5')
 
+
 // const ulEl = document.getElementById('ul-el')
 
 // var dict = {}
